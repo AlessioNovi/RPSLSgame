@@ -1,0 +1,16 @@
+<%= display_score %>
+<form action = "/gameround" method = "post" style = "display: inline-block" class = "gameroundform">
+  <h1>MAKE YOUR MOVE</h1>
+  <input type="radio" id = "rock" name="move" value="rock" required>
+  <label for = "rock">Rock<i class="fa-regular fa-hand-back-fist"></i></label>
+  <input type="radio" id ="paper" name="move" value="paper" required>
+  <label for = "paper">Paper<i class="fa-regular fa-hand"></i></label> 
+  <input type="radio" id = "scissors" name="move" value="scissors" required>
+  <label for = "scissors">Scissors<i class="fa-regular fa-hand-scissors"></i></label>
+  <input type="radio" id = "lizard" name="move" value="lizard" required>
+  <label for = "lizard">Lizard<i class="fa-regular fa-hand-lizard"></i></label>
+  <input type="radio" id = "spock" name="move" value="spock" required>
+  <label for = "spock">Spock<i class="fa-regular fa-hand-spock"></i></label>
+  <input type="submit" value="SUBMIT">
+</form>
+<%= display_moves_history %>

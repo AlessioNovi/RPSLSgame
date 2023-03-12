@@ -1,0 +1,18 @@
+<%= display_score %>
+<div class = "roundwinner">
+  <p>Player move is <%= @human_move %></p>
+  <p>Computer move is <%= @computer_move %></p>
+  <p><%= @game.display_round_winner %></p>
+</div>
+<div class = "grandwinner">
+  <% if @game.grandwinner? %>
+  <p><%= @game.grandwinner? %></p>
+  <a href = "/newmatch">Play New Match</a>
+  <a href = "/quit">Quit Game</a>
+  <% else %>
+  <a href = "/newround">Play Another Round</a>
+  <a href = "/quit">Quit Game</a>
+  <% end %>
+</div>
+
+

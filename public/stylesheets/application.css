@@ -1,0 +1,198 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+  font-family: 'Roboto', sans-serif;
+  background-color: #E8f2fb;
+  font-size: 24px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #182634;
+}
+
+.score {
+  background-color: #Cee4f9;
+  text-align: center;
+  padding: 3.5rem;
+  font-family: 'Calistoga', cursive;
+}
+
+.score h1 {
+  font-size: 3rem;
+  
+}
+
+.score p {
+  display: inline-block;
+  font-size: 1.7rem;
+  margin-top: 1rem;
+}
+
+#divider {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.gameroundform {
+  width: 100%;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.gameroundform h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  letter-spacing: .4rem;
+  font-weight: 600;
+}
+
+.gameroundform i {
+  margin: 0.5rem;
+}
+
+.gameroundform input[type = "submit"] {
+  display: block;
+  margin: auto;
+  width: 40%;
+  height: 3rem;
+  margin-top: 1rem;
+  background-color: #68a3de;
+  color: #dea368;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  border-radius: 2%;
+  border-color: #406589;
+}
+
+.gameroundform input[type = "radio"] {
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	border: 2px solid #182634;
+	border-radius: 50%;
+	background-clip: content-box;
+	padding: 3px;
+}
+
+.gameroundform input[type="radio"]:checked {
+	background-color: #dea368;
+}
+
+.history {
+  margin: 2rem;
+  text-align: center;
+}
+
+.history p {
+  font-size: 1.3rem;
+  margin: 0.5rem;
+}
+
+.roundwinner {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.roundwinner p {
+  margin: 0.5rem;
+  font-size: 2rem;
+  display: inline-block;
+}
+
+
+.roundwinner p:nth-child(3){
+  display: block;
+  font-weight: bold;
+}
+
+.grandwinner {
+  margin-top: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.grandwinner p {
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: #182634;
+}
+
+a:hover {
+  color: #dea368;
+}
+
+.homeandgoodbye {
+  background-color: #Cee4f9;
+  text-align: center;
+  padding: 3.5rem;
+  font-family: 'Calistoga', cursive;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.homeandgoodbye p {
+  font-style: italic;
+  font-weight: normal;
+  margin-top: 1rem;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+}
+
+.homeandgoodbyea {
+  display: block;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+img {
+  display: block;
+  margin: 1rem auto
+}
